@@ -1,0 +1,21 @@
+Font Awesome Icon Use Korar jonno
+----------------------------------
+https://fontawesome.com/v4.7.0/icons/
+
+
+
+CSS Shapes learning
+-------------------
+https://css-tricks.com/the-shapes-of-css/
+
+
+
+Fonts Uses
+----------
+https://fonts.google.com/
+
+
+
+Flexbox
+-------
+https://www.w3schools.com/css/css3_flexbox.asp

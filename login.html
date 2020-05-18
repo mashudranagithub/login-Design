@@ -3,72 +3,86 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Login Page Design</title>
+	<!-- Favicon Icon -->
+	<link rel="icon" href="assets/images/favicon.ico">
+	<!-- Font Awesome Link -->
 	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css2?family=Squada+One&display=swap" rel="stylesheet">
+	
 	<link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-	<section id="Login">
-		<div class="sign-in">
-			<div class="sign-in-header">
-				<p class="float-left"><span>Company</span>Name</p>
-			</div>
-			<div class="sign-in-body">
-				<h3>Sign in to Account</h3>
-				<div class="social-icons">
+	<!-- Login Section Start Here -->
+	<section id="Login-page">
+		<div class="login">
+			<!-- Sign In Start Here -->
+			<div class="sign-in">
+				<div class="sign-in-header">
+					<p class="float-left"><span>Company</span>Name</p>
+				</div>
+				<div class="sign-in-body">
+					<h3>Sign in to Account</h3>
+					<div class="social-icons">
+						<ul>
+							<li>
+								<a href="javascript:void(0);">
+									<i class="fa fa-facebook" aria-hidden="true"></i>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:void(0);">
+									<i class="fa fa-linkedin" aria-hidden="true"></i>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:void(0);">
+									<i class="fa fa-google-plus" aria-hidden="true"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<!-- Sign In form Start Here -->
+					<form action="#" method="post" enctype="multipart/formdata">
+						<p>or use your email account</p>
+						<div class="single-input">
+							<label for="email">Email</label>
+							<input type="email" placeholder="Your Email Address">
+						</div>
+						<div class="single-input">
+							<label for="password">Password</label>
+							<input type="password" placeholder="Your Password">
+						</div>
+						<p>
+							<span class="float-left">
+								<input type="checkbox"> Remember me
+							</span>
+							<span class="float-right">
+								<a href="javascript:void(0);" class="forgot-pass" target="_blank">Forgot password?</a>
+							</span>
+						</p>
+						<a href="javascript:void(0);" class="arif-btn-sign btn-sign-in">Sign In</a>
+					</form><!-- Sign In form End Here -->
+				</div>
+				<div class="sign-in-footer">
 					<ul>
-						<li>
-							<a href="javascript:void(0);">
-								<i class="fa fa-facebook" aria-hidden="true"></i>
-							</a>
-						</li>
-						<li>
-							<a href="javascript:void(0);">
-								<i class="fa fa-linkedin" aria-hidden="true"></i>
-							</a>
-						</li>
-						<li>
-							<a href="javascript:void(0);">
-								<i class="fa fa-google-plus" aria-hidden="true"></i>
-							</a>
-						</li>
+						<li><a href="javascript:void(0);">Privacy Policy</a></li>
+						<li><a href="javascript:void(0);">Terms & Conditions</a></li>
 					</ul>
 				</div>
-				<form action="#" method="post" enctype="multipart/formdata">
-					<p>or use your email account</p>
-					<div class="single-input">
-						<label for="email">Email</label>
-						<input type="email" placeholder="Your Email Address">
-					</div>
-					<div class="single-input">
-						<label for="password">Password</label>
-						<input type="password" placeholder="Your Password">
-					</div>
-					<p>
-						<span class="float-left">
-							<input type="checkbox"> Remember me
-						</span>
-						<span class="float-right">
-							<a href="javascript:void(0);" class="forgot-pass" target="_blank">Forgot password?</a>
-						</span>
-					</p>
-					<a href="javascript:void(0);" class="btn-sign sign-in">Sign In</a>
-				</form>
-			</div>
-			<div class="sign-in-footer">
-				<ul>
-					<li><a href="javascript:void(0);">Privacy Policy</a></li>
-					<li><a href="javascript:void(0);">Terms & Conditions</a></li>
-				</ul>
-			</div>
+			</div><!-- Sign In Emd Here -->
+			<!-- Sign Up Start Here -->
+			<div class="sign-up">
+				<div class="sign-up-content">
+					<h3>Hello, Friend!</h3>
+					<p>Fill up personal information and start with us.</p>
+					<a href="javascript:void(0);" class="arif-btn-sign btn-sign-up">Sign Up</a>
+				</div>
+			</div><!-- Sign Up End Here -->
 		</div>
-		<div class="sign-up">
-			<div class="sign-up-content">
-				<h3>Hello, Friend!</h3>
-				<p>Fill up personal information and start with us.</p>
-				<a href="javascript:void(0);" class="btn-sign sign-up">Sign Up</a>
-			</div>
-		</div>
-	</section>
+	</section><!-- Login Section End Here -->
+
+
 </body>
 </html>
