@@ -46,7 +46,7 @@ h3 {
     font-weight: 700;
     letter-spacing: 1.5px;
     line-height: 35px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     position: relative;
 }
 
@@ -76,9 +76,22 @@ ul li {
     text-decoration: none;
 }
 
+a.arif-btn-sign {
+    margin-top: 35px;
+}
+
 .arif-btn-sign:hover {
     background: rgba(14, 201, 120, 0.8);
 }
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
 
 /* Common CSS Styles End Here */
 
@@ -144,6 +157,108 @@ section#Login-page h3::after {
 
 .sign-in-body h3 {
     color: #0ec978;
+}
+
+.social-icons {
+    margin-bottom: 15px;
+}
+
+.social-icons ul li {
+    margin: 8px;
+}
+
+.social-icons ul li a {
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.social-icons ul li a i.fa {
+    font-size: 18px;
+    color: #6f6f6f;
+    transition: all 0.5s;
+}
+
+.social-icons ul li a:hover {
+    border: 1px solid #0ec978;
+}
+
+.social-icons ul li a:hover i.fa{
+    color: #0ec978;
+/*     transform: scale(1.2); */
+    transform: rotate(20deg);
+}
+
+
+/* selector {
+    property: value;
+} */
+
+form.sign-in-form {
+    max-width: 350px;
+    margin: auto;
+}
+
+.single-input {
+    margin: 10px 0 20px;
+    position: relative;
+}
+
+.single-input label {
+    position: absolute;
+    top: -10px;
+    background: #fff;
+    padding: 0 5px;
+    opacity: 0;
+    left: 15px;
+    color: #0ec978;
+    transition: opacity 0.5s;
+}
+
+.single-input input {
+    width: 300px;
+    border: 1px solid #bfbfbf;
+    padding: 12px 25px;
+    border-radius: 4px;
+    box-shadow: 0 0 0px 1000px #ffffff inset;
+}
+
+.single-input input:focus,
+.single-input input:active {
+    border: 2px solid #0ec978;
+    outline:none;
+}
+
+.single-input:hover label {
+    opacity: 1;
+}
+
+.clearfix {
+    width: 100%;
+    overflow: hidden;
+    height: 20px;
+}
+
+.sign-in-footer {
+    text-align: center;
+}
+
+.sign-in-footer ul li {
+    margin: 5px 10px;
+    list-style-type: disc;
+}
+
+.sign-in-footer ul li a {
+    font-size: 15px;
+    color: #6f6f6f;
+    letter-spacing: 0.5px;
+    text-decoration: none;
 }
 
 /*Sign In End Here*/
